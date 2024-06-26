@@ -6,6 +6,11 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  
+}
+
+#small {
+  font-size: small;
 }
 
 .small-para {
@@ -15,6 +20,7 @@ body {
 
 .para {
   font-size: 22px;
+  font-weight: bold;
 }
 
 .confirm {
@@ -39,4 +45,14 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+#confirm-button {
+   color: white;
+   background-color: green;
+}
+
+.text .child {
+  font-size: small;
+  font-weight: bold;
 }
